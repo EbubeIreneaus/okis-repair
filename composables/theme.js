@@ -1,0 +1,1 @@
+export const usePrimaryColor = () => useState('theme', ()=>"red")
