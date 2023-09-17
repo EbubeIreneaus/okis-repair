@@ -174,6 +174,8 @@ onMounted(() => {
     padding: 30px;
 }
 
+
+
 .form-sec input {
     border-radius: 0%;
     outline: none !important;
@@ -183,5 +185,10 @@ onMounted(() => {
     width: 100%;
     background-color: rgb(185, 44, 44);
     color: white;
+}
+@media screen and (max-width:768px) {
+    .form-sec {
+    padding: 30px 0px;
+}
 }
 </style>
